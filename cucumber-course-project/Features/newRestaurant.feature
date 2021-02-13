@@ -1,7 +1,7 @@
 
 Feature: Adding new restaurant
 
-  Scenario Outline: Title of your scenario outline
+  Scenario Outline: Add a new restaurant
     Given User opens restaurant creation tab
     When Current user "<username>" is verified
     And User enters restaurant name "<name>"
